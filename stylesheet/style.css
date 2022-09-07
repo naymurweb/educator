@@ -5,3 +5,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+img.img-fluid.rounded-start {
+    width: 100%;
+}
+
+.section-gap{
+    margin: 80px 0;
+}

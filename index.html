@@ -48,7 +48,7 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <button class="btn btn-outline-info fw-semibold py-2 px-4" type="submit">Register</button>
+                        <button class="btn btn-outline-info  py-2 px-4" type="submit">Register</button>
                     </form>
                 </div>
             </div>
@@ -114,7 +114,7 @@
         </section>
 
         <!-- Courses -->
-        <section class="my-5">
+        <section class="section-gap">
             <div class="text-center  ">
                 <h1 class="fw-semibold ">Discover Our Popular <br> Courses</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page
@@ -127,7 +127,7 @@
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
-                                <div class="col-md-4">
+                                <div class="col-lg-4 col-md-4  col-sm-12" id="course-img">
                                     <img src="./images/course/course-1.png" class="img-fluid rounded-start" alt="...">
                                 </div>
                                 <div class="col-md-8">
@@ -255,8 +255,55 @@
             </div>
         </section>
 
+        <!-- Register Now section -->
+        <section class="section-gap">
+            <div class="row bg-info p-5 text-white rounded">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h1>Ready to join?</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.</p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-end align-items-center">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light text-info" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Register
+                        Now
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-info" id="exampleModalLabel">Register Now</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="text-black">Ready to join?</p>
+                                    <small class="text-black">It is a long established fact that a reader will be
+                                        distracted by the readable content of a page when looking at its layout.</small>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+
         <!-- Asked Questions -->
-        <section class="my-5">
+        <section class="section-gap">
             <div class="text-center  ">
                 <h1 class="fw-semibold ">Frequently Asked Questions</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page
@@ -348,6 +395,34 @@
                 </div>
             </div>
         </section>
+
+        <!-- brands -->
+        <section class="section-gap  d-none d-lg-block">
+            <div class="">
+                <h1 class="text-center fw-semibold ">Trusted by over 800+ companies</h1>
+                <div class="d-flex justify-content-between align-items-center mt-5">
+                    <div>
+                        <img src="./images/company/company-1.png" alt="" class="img-fluid">
+                    </div>
+                    <div>
+                        <img src="./images/company/company-2.png" alt="" class="img-fluid">
+                    </div>
+                    <div>
+                        <img src="./images/company/company-3.png" alt="" class="img-fluid">
+                    </div>
+                    <div>
+                        <img src="./images/company/company-4.png" alt="" class="img-fluid">
+                    </div>
+                    <div>
+                        <img src="./images/company/company-5.png" alt="" class="img-fluid">
+                    </div>
+                    <div>
+                        <img src="./images/company/company-6.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- footer -->
