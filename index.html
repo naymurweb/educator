@@ -17,7 +17,7 @@
 
 <body>
     <!-- navbar -->
-    <header>
+    <header id="Home">
         <nav class="navbar navbar-expand-lg py-4">
             <div class="container">
                 <a class="navbar-brand" href="#">
@@ -32,23 +32,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active ms-4" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active ms-4" aria-current="page" href="#Home">Home</a>
                         </li>
                         <li class="nav-item ms-4">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item ms-4">
-                            <a class="nav-link" href="#">Deals</a>
+                            <a class="nav-link" href="#Questions">Questions</a>
                         </li>
                         <li class="nav-item ms-4">
-                            <a class="nav-link" href="#">Success</a>
+                            <a class="nav-link" href="#Success">Success</a>
                         </li>
                         <li class="nav-item ms-4 me-5">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#About">About</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <button class="btn btn-outline-info  py-2 px-4" type="submit">Register</button>
+                        <a href="#Register" class="btn btn-outline-info  py-2 px-4" type="submit">Register</a>
                     </form>
                 </div>
             </div>
@@ -114,7 +114,7 @@
         </section>
 
         <!-- Courses -->
-        <section class="section-gap">
+        <section class="section-gap" id="courses">
             <div class="text-center  ">
                 <h1 class="fw-semibold ">Discover Our Popular <br> Courses</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page
@@ -256,10 +256,10 @@
         </section>
 
         <!-- about section -->
-        <section class="section-gap">
+        <section class="section-gap" id="About">
             <div class="row">
                 <div class="col-lg-6 col-md-5 col-sm-12 d-flex justify-content-end p-0">
-                    <img src="./images/working.png" class="img-fluid" alt="">
+                    <img src="./images/working.png" class="img-fluid w-100" alt="">
 
                 </div>
                 <div class="col-lg-6 col-md-7 col-sm-12 d-flex flex-column justify-content-evenly bg-light p-4 ">
@@ -299,7 +299,7 @@
         </section>
 
         <!-- Register Now section -->
-        <section class="section-gap">
+        <section class="section-gap" id="Register">
             <div class="row bg-info p-5 text-white rounded">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <h1>Ready to join?</h1>
@@ -341,7 +341,7 @@
         </section>
 
         <!-- team members -->
-        <section class="section-gap">
+        <section class="section-gap" id="Success">
             <div class="">
                 <h1 class="fw-semibold ">Meet Our Successfull <br> Students</h1>
                 <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page
@@ -398,12 +398,16 @@
                     </div>
                 </div>
 
+                <div class="text-center mt-4">
+                    <button class="btn btn-info text-white">View All</button>
+                </div>
+
             </div>
 
         </section>
 
         <!-- Asked Questions -->
-        <section class="section-gap">
+        <section class="section-gap" id="Questions">
             <div class="text-center  ">
                 <h1 class="fw-semibold ">Frequently Asked Questions</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page
